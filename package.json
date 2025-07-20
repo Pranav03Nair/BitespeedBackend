@@ -1,8 +1,10 @@
 {
   "name": "bitespeedbackend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "dev" : "ts-node-dev src/server.ts",
+    "start": "ts-node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
