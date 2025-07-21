@@ -1,3 +1,7 @@
 node_modules/
 .env
 /generated/prisma
+
+dev.db
+dev.db-shm
+dev.db-wal
